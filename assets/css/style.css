@@ -1,0 +1,127 @@
+/* Color */
+/* Typography */
+/* Layout */
+/* Mixin */
+/* Content */
+body {
+  font-size: 16px;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+}
+
+ul, ol {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+ul li, ol li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+ul li .list--bold, ol li .list--bold {
+  font-weight: 600;
+}
+
+.title {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 10px;
+  font-family: "Young Serif", serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin: 30px auto;
+  padding: 25px 25px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .recipe {
+    width: 325px;
+    margin: 0 auto;
+    border-radius: 0;
+  }
+}
+.recipe__img {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .recipe__img {
+    width: auto;
+    margin: -25px -25px 0;
+    border-radius: 0;
+  }
+}
+.recipe__title {
+  text-align: left;
+  font-size: 32px;
+  font-weight: 700;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 0;
+  font-family: "Young Serif", serif;
+}
+.recipe__description {
+  font-family: "Young Serif", serif;
+}
+
+.preparation_time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 0 25px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-top: 6px;
+}
+.preparation_time__title {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid hsl(30, 18%, 87%);
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+table tr td {
+  padding: 15px 0 10px 20px;
+}
+table tr td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+table tr:nth-last-child(1) {
+  border-bottom: none;
+}
+
+.attribution {
+  margin: 30px 0 10px;
+  text-align: center;
+  opacity: 0.75;
+  font-size: 10px;
+}
+.attribution a {
+  text-decoration: underline;
+  color: hsl(30, 10%, 34%);
+}
+
+/*# sourceMappingURL=style.css.map */
