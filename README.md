@@ -24,9 +24,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Screenshot
 
-|Desktop version - 1440px|Mobile version - 375px|
-|---|---|
-|![Desktop - 1400px](./assets/screenshots/desktop_1400.png)|![Mobile - 375px](./assets/screenshots/mobile_375.png)|
+![](./screenshot.jpg)
 
 <!-- ### Links
 
