@@ -52,4 +52,4 @@ This was a fun challenge to work on. I learned how to use SCSS custom properties
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 - Frontend Mentor - [@mathiasag7](https://www.frontendmentor.io/profile/mathiasag7)
-- Twitter - [@mathiasag07](https://www.twitter.com/mathiasag07)
+<!-- - Twitter - [@MathiasAg03](https://www.twitter.com/mathiasag07) -->
